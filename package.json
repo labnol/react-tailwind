@@ -20,7 +20,8 @@
     "react",
     "tailwindcss",
     "tailwindui",
-    "vscode"
+    "vscode",
+    "create-react-app"
   ],
   "browserslist": {
     "production": [
@@ -41,7 +42,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.7.4",
-    "postcss-import": "^12.0.1",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0",
     "@tailwindcss/ui": "^0.1.3",
