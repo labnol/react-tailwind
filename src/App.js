@@ -12,10 +12,18 @@ const App = () => {
             TailwindCSS Typography plugin.
           </p>
           <p>
-            The project was bootstrapped with Create React App and it uses
-            PurgeCSS to remove all the unused CSS classes from the production
-            build. It uses Prettier and ESLint to format and automatically fix
-            your code in Visual Studio Code.
+            The{' '}
+            <a
+              href="https://github.com/labnol/react-tailwind"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              React TailwindCSS starter
+            </a>{' '}
+            is bootstrapped with Create React App and it uses PurgeCSS to remove
+            all the unused CSS classes from the production build. It uses
+            Prettier and ESLint to format and automatically fix your code in
+            Visual Studio Code.
           </p>
           <h4>Available npm scripts</h4>
           <p>In the project directory, you can run:</p>

@@ -1,6 +1,10 @@
 # 🚀 React with Tailwind CSS
 
-Follow the step-by-step instructions to set up a React project with the Tailwind CSS framework. The project was bootstrapped with Create React App and it uses PurgeCSS to remove all the unused CSS classes from the production build.
+Learn how to quickly set up a React project with the Tailwind CSS framework using the [https://github.com/labnol/react-tailwind](starter kit). The project was bootstrapped with Create React App and it uses PurgeCSS to remove all the unused CSS classes from the production build.
+
+## Live Demo
+
+[CodeSandbox](https://codesandbox.io/s/runtime-hill-pk0yt) | [Glitch](https://glitch.com/edit/#!/remix/react-tailwindcss) | [Verce]()
 
 ### Available npm scripts
 
