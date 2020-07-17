@@ -4,7 +4,7 @@ Learn how to quickly set up a React project with the Tailwind CSS framework usin
 
 ## Live Demo
 
-[CodeSandbox](https://codesandbox.io/s/runtime-hill-pk0yt) | [Glitch](https://glitch.com/edit/#!/remix/react-tailwindcss) | [Verce]()
+[CodeSandbox](https://codesandbox.io/s/github/labnol/react-tailwind) | [Glitch](https://glitch.com/edit/#!/remix/react-tailwindcss) | [Vercel](https://csb-ggfl7-ipit3clvr.vercel.app/)
 
 ### Available npm scripts
 
