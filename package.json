@@ -8,7 +8,7 @@
     "email": "amit@labnol.org",
     "url": "https://www.labnol.org"
   },
-  "private": true,
+  "private": false,
   "scripts": {
     "tailwind": "npx tailwind build src/tailwind.css -o src/index.css",
     "prestart": "npm run tailwind",
