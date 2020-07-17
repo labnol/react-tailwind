@@ -2,39 +2,65 @@ import React from 'react';
 
 const App = () => {
   return (
-    <div className="p-32 bg-gray-100">
-      <div className="max-w-xl mx-auto">
-        <h3 className="text-2xl text-gray-700 font font-heading">
-          React Tailwind CSS Starter Kit
-        </h3>
-        <p className="mt-6 mb-6 leading-relaxed text-gray-600">
-          Quickly build a React.js project with Create React App (CRA) and the
-          Tailwind CSS framework. The unused CSS classes are automatically
-          removed from the production build with PurgeCSS.
-        </p>
-        <p className="mt-6 mb-6 text-gray-500">
-          Written by&nbsp;
-          <a
-            className="hover:bg-yellow-200"
-            href="https://www.labnol.org/about"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Amit Agarwal
-          </a>{' '}
-          <span className="text-sm text-gray-500">
-            (Google Developer Expert, GSuite)
+    <div class="m-12 bg-white shadow-2xl mx-auto max-w-3xl w-full">
+      <div class="p-12">
+        <div className="prose">
+          <h2>React with Tailwind CSS</h2>
+          <p className="bg-yellow-50 p-4 rounded-lg">
+            How to quickly setup a React.js project with Create React App (CRA)
+            and the Tailwind CSS framework. The styling is handled by
+            TailwindCSS Typography plugin.
+          </p>
+          <p>
+            The project was bootstrapped with Create React App and it uses
+            PurgeCSS to remove all the unused CSS classes from the production
+            build. It uses Prettier and ESLint to format and automatically fix
+            your code in Visual Studio Code.
+          </p>
+          <h4>Available npm scripts</h4>
+          <p>In the project directory, you can run:</p>
+          <pre>npm run start</pre>
+          <p>
+            Runs the app in the development mode. Open `http://localhost:3000`
+            to view it in the browser. The page will reload if you make edits.
+            You will also see any lint errors in the console.
+          </p>
+          <pre>npm run build</pre>
+          <p>
+            Builds the React app for production to the `build` folder. It
+            correctly bundles React in production mode and optimizes the build
+            for the best performance. The build is minified and the filenames
+            include the hashes. Your app is ready to be deployed!
+          </p>
+          <pre>npm run inline</pre>
+          <p>
+            This command uses <code>Gulp</code> to inline all the JavaScript and
+            CSS files from the production build into a single minified file.
+          </p>{' '}
+          <h4>Credits</h4>
+          <p>
+            The React and Tailwind CSS starter is written by{' '}
+            <a
+              href="https://www.labnol.org/about"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-yellow-100 p-1 mr-2"
+            >
+              Amit Agarwal
+            </a>
+            <small>Email: amit@labnol.org</small>
+          </p>
+        </div>
+        <div class="mt-5">
+          <span class="inline-flex rounded-md shadow-sm">
+            <a
+              href="https://www.labnol.org"
+              class="inline-flex items-center px-4 py-2 border border-gray-300 text-sm leading-5 font-medium rounded-md text-gray-700 bg-gray-100 hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:text-gray-800 active:bg-gray-50 transition ease-in-out duration-150 no-underline"
+            >
+              Visit my Tech Blog
+            </a>
           </span>
-        </p>
-        <a
-          className="no-underline btn btn-indigo"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://twitter.com/labnol"
-          title="Send a message on Twitter"
-        >
-          Contact @me
-        </a>
+        </div>
       </div>
     </div>
   );

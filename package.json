@@ -10,9 +10,10 @@
   },
   "private": true,
   "scripts": {
-    "prestart": "postcss src/tailwind.css -o src/index.css",
+    "tailwind": "npx tailwind build src/tailwind.css -o src/index.css",
+    "prestart": "npm run tailwind",
     "start": "react-scripts start",
-    "prebuild": "postcss src/tailwind.css -o src/index.css --env production",
+    "prebuild": "cross-env NODE_ENV=production npm run tailwind",
     "build": "react-scripts build",
     "inline": "npm run build && gulp"
   },
@@ -36,18 +37,18 @@
     ]
   },
   "dependencies": {
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "@tailwindcss/typography": "^0.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.4",
-    "postcss-cli": "^7.1.0",
-    "tailwindcss": "^1.2.0",
-    "@tailwindcss/ui": "^0.1.3",
-    "@fullhuman/postcss-purgecss": "^2.1.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "^1.19.1",
+    "autoprefixer": "^9.8.5",
+    "tailwindcss": "^1.5.1",
+    "@tailwindcss/ui": "^0.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "cross-env": "^7.0.2",
     "gulp": "^4.0.2",
     "gulp-inline-source": "^4.0.0",
     "gulp-replace": "^1.0.0",

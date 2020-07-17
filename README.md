@@ -2,9 +2,7 @@
 
 Follow the step-by-step instructions to set up a React project with the Tailwind CSS framework. The project was bootstrapped with Create React App and it uses PurgeCSS to remove all the unused CSS classes from the production build.
 
-The project uses Prettier and ESLint to format and automatically fix your code in Visual Studio Code.
-
-## Available npm scripts
+### Available npm scripts
 
 In the project directory, you can run:
 
@@ -26,6 +24,8 @@ The build is minified and the filenames include the hashes. Your app is ready to
 
 This command uses `Gulp` to inline all the JavaScript and CSS files from the production build into a single minified file.
 
-## 📧 Contact
+### 📧 Contact
 
-The React and Tailwind CSS starter is written by [Amit Agarwal](https://www.labnol.org/about). If you have any questions or feedback, send an email at [amit@labnol.org](mailto:amit@labnol.org?subject=Tailwind+React).
+The React and Tailwind CSS starter is written by [Amit Agarwal](https://www.labnol.org/about).
+
+If you have any questions or feedback, send an email at [amit@labnol.org](mailto:amit@labnol.org?subject=Tailwind+React).
