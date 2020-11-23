@@ -4,7 +4,7 @@ Learn how to quickly set up a React project with the Tailwind CSS framework usin
 
 ## Live Demo
 
-The [Digital Inspiration](https://digitalinspiration.com/) website is built with the TailwindCSS, React.js and Gatsby.
+The [Digital Inspiration](https://digitalinspiration.com/) website is built with the Tailwind CSS, React.js and Gatsby.
 
 [CodeSandbox](https://codesandbox.io/s/github/labnol/react-tailwind) | [Glitch](https://glitch.com/edit/#!/remix/react-tailwindcss) | [Vercel](https://csb-ggfl7-ipit3clvr.vercel.app/)
 
@@ -32,6 +32,6 @@ This command uses `Gulp` to inline all the JavaScript and CSS files from the pro
 
 ### 📧 Contact
 
-The React and Tailwind CSS starter is written by [Amit Agarwal](https://www.labnol.org/about).
+The React and Tailwind CSS starter is written by [Amit Agarwal](https://www.labnol.org/about). It is now updated to support Tailwind CSS v2.0.
 
 If you have any questions or feedback, send an email at [amit@labnol.org](mailto:amit@labnol.org?subject=Tailwind+React).

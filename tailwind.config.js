@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   theme: {
@@ -6,9 +7,14 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        'light-blue': colors.lightBlue,
+        cyan: colors.cyan,
+      },
     },
   },
   variants: {},
+  darkMode: false, // or 'media' or 'class'
   purge: [
     './src/**/*.html',
     './src/**/*.js',
@@ -16,10 +22,10 @@ module.exports = {
     './public/index.html',
   ],
   plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/ui'),
     require('tailwindcss'),
-    require('@tailwindcss/custom-forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio'),
     require('autoprefixer'),
   ],
 };
