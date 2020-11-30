@@ -46,17 +46,17 @@
     "react-scripts": "4.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.2",
+    "autoprefixer": "^10.0.4",
     "cross-env": "^7.0.2",
     "eslint-plugin-prettier": "^3.1.4",
     "gulp": "^4.0.2",
     "gulp-inline-source": "^4.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.0.0",
-    "postcss": "^8.1.9",
-    "prettier": "^2.2.0"
+    "postcss": "^8.1.10",
+    "prettier": "^2.2.1"
   },
   "peerDependencies": {
-    "postcss": "^8.1.9"
+    "postcss": "^8.1.10"
   }
 }
