@@ -22,10 +22,8 @@ module.exports = {
     './public/index.html',
   ],
   plugins: [
-    require('tailwindcss'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
-    require('autoprefixer'),
   ],
 };

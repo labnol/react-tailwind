@@ -39,24 +39,24 @@
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
-    "@tailwindcss/typography": "^0.3.1",
-    "tailwindcss": "^2.0.1",
+    "@tailwindcss/typography": "^0.4.0",
+    "tailwindcss": "^2.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1"
+    "react-scripts": "4.0.3"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.4",
-    "cross-env": "^7.0.2",
-    "eslint-plugin-prettier": "^3.1.4",
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "eslint-plugin-prettier": "^3.3.1",
     "gulp": "^4.0.2",
     "gulp-inline-source": "^4.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.0.0",
-    "postcss": "^8.1.10",
+    "postcss": "^8.2.8",
     "prettier": "^2.2.1"
   },
   "peerDependencies": {
-    "postcss": "^8.1.10"
+    "postcss": "^8.2.8"
   }
 }
