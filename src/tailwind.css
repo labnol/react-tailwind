@@ -30,4 +30,5 @@ a {
   * This injects Tailwind's utility classes and any utility classes registered
   * by plugins.
   */
+  
 @tailwind utilities;

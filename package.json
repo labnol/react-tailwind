@@ -1,6 +1,6 @@
 {
-  "name": "react-tailwindcss",
-  "version": "2.0.0",
+  "name": "react-tailwind",
+  "version": "2.1.0",
   "description": "Create React App with Tailwind CSS",
   "license": "MIT",
   "author": {
@@ -55,8 +55,5 @@
     "gulp-replace": "^1.0.0",
     "postcss": "^8.2.8",
     "prettier": "^2.2.1"
-  },
-  "peerDependencies": {
-    "postcss": "^8.2.8"
   }
 }
