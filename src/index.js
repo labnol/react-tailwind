@@ -1,5 +1,11 @@
+import React, { StrictMode } from 'react';
 import { render } from 'react-dom';
 import App from './App';
-import './index.css';
+import './styles/index.css';
 
-render(<App />, document.getElementById('root'));
+render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+  document.getElementById('root')
+);

@@ -1,6 +1,6 @@
 # 🚀 React with Tailwind CSS
 
-Learn how to quickly set up a React project with the Tailwind CSS framework using the [starter kit](https://github.com/labnol/react-tailwind). The project was bootstrapped with Create React App and it uses PurgeCSS to remove all the unused CSS classes from the production build.
+Learn how to quickly set up a React.js project with Tailwind CSS using the [starter kit](https://github.com/labnol/react-tailwind). The project was bootstrapped with Create React App (CRA) and it uses PurgeCSS to remove all the unused CSS classes from the production build.
 
 ## Live Demo
 

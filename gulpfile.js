@@ -1,13 +1,23 @@
-var gulp = require('gulp');
-var inlinesource = require('gulp-inline-source');
-var replace = require('gulp-replace');
-var rename = require('gulp-rename');
+const { src, dest, task, parallel } = require('gulp');
+const inlinesource = require('gulp-inline-source');
+const replace = require('gulp-replace');
+const rename = require('gulp-rename');
 
-gulp.task('default', function () {
-  return gulp
-    .src('./build/index.html')
+let scriptLink = '';
+
+task('inlineReact', () =>
+  src('./build/index.html')
     .pipe(replace(/(\w+)="\/static/g, 'inline $1="/static'))
+    .pipe(
+      replace(/<script.+?static.+?<\/script>/g, (match) => {
+        scriptLink = match.replace(/defer.+?\s/, '');
+        return '';
+      })
+    )
+    .pipe(replace(/(<\/body>)/g, (match) => scriptLink + match))
     .pipe(inlinesource())
-    .pipe(rename('app.html'))
-    .pipe(gulp.dest('./build/dist'));
-});
+    .pipe(rename('dist.html'))
+    .pipe(dest('./build'))
+);
+
+exports.default = parallel('inlineReact');
