@@ -1,12 +1,12 @@
 {
   "name": "react-tailwind",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "description": "Create React App with Tailwind CSS",
   "license": "MIT",
   "author": {
     "name": "Amit Agarwal",
     "email": "amit@labnol.org",
-    "url": "https://www.labnol.org"
+    "url": "https://digitalinspiration.com/"
   },
   "private": false,
   "scripts": {
@@ -39,26 +39,26 @@
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
-    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.0",
     "@tailwindcss/typography": "^0.5.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "tailwindcss": "^3.0.23"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "eslint": "8.9.0",
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.13.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-inline-source": "^4.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.1.3",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.6",
-    "prettier": "^2.5.1",
-    "prettier-plugin-tailwindcss": "^0.1.7"
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.8"
   }
 }

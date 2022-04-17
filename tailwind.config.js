@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
