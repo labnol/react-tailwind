@@ -1,23 +1,19 @@
-/* eslint-disable global-require */
-const defaultTheme = require('tailwindcss/defaultTheme');
-const colors = require('tailwindcss/colors');
+import forms from '@tailwindcss/forms';
+import typography from '@tailwindcss/typography';
+import colors from 'tailwindcss/colors';
+import defaultTheme from 'tailwindcss/defaultTheme';
 
-module.exports = {
-  content: ['./src/**/*.{html,js,jsx}', './public/index.html'],
+export default {
+  content: ['./index.html', './src/**/*.{html,jsx,js}'],
   theme: {
     extend: {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        'light-blue': colors.sky,
-        cyan: colors.cyan,
+        indigo: colors.blue,
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio'),
-  ],
+  plugins: [forms, typography],
 };

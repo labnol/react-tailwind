@@ -1,40 +1,39 @@
-/**
- * This injects Tailwind's base styles and any base styles registered by
- * plugins.
- */
 @tailwind base;
-
-a {
-  @apply underline;
-}
-
-/**
-  * This injects Tailwind's component classes and any component classes
-  * registered by plugins.
-  */
 @tailwind components;
-
-.btn {
-  @apply inline-block py-3 px-3 leading-none rounded shadow font-semibold text-sm
-}
-
-.btn-indigo {
-  @apply bg-indigo-500 text-white;
-}
-
-.btn-indigo:hover {
-  @apply bg-indigo-600;
-}
-
-/**
-  * This injects Tailwind's utility classes and any utility classes registered
-  * by plugins.
-  */
-  
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  a {
+    @apply text-blue-500 underline underline-offset-2;
+  }
+}
+
 @layer components {
+  .btn {
+    @apply rounded bg-blue-500 px-4 py-2 text-white;
+  }
+
+  .btn-indigo {
+    @apply bg-indigo-500 text-white;
+  }
+
+  .btn-indigo:hover {
+    @apply bg-indigo-600;
+  }
+
   .btn-blue {
-    @apply inline-flex items-center bg-indigo-600 border border-transparent rounded-md shadow-sm py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-0;
+    @apply inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-0;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
 }

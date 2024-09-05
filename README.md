@@ -1,6 +1,6 @@
-# 🚀 React 18 with Tailwind CSS
+# 🚀 React 18 with Tailwind CSS and Vite
 
-Learn how to quickly set up a `React.js` project with Tailwind CSS using the [starter kit](https://github.com/labnol/react-tailwind). The project was bootstrapped with Create React App (CRA) and it uses PurgeCSS to remove all the unused CSS classes from the production build.
+Learn how to quickly set up a `React.js` project with Tailwind CSS using the [starter kit](https://github.com/labnol/react-tailwind). The project was bootstrapped with Vite (replacing Create React App) and it uses the `singlefile` plugin to inline all the JavaScript and CSS files into a single minified file.
 
 ## Live Demo
 
@@ -16,7 +16,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.
 
-Open `http://localhost:3000` to view it in the browser.
+Open `http://localhost:5173` to view it in the browser.
 
 The page will reload if you make edits. You will also see any lint errors in the console.
 
@@ -28,7 +28,7 @@ The build is minified and the filenames include the hashes. Your app is ready to
 
 ### `npm run inline`
 
-This command uses `Gulp` to inline all the JavaScript and CSS files from the production build into a single minified file.
+This command will inline all the JavaScript and CSS files from the production build into a single minified file.
 
 ### 📧 Contact
 
