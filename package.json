@@ -1,7 +1,7 @@
 {
   "name": "react-tailwind",
-  "version": "5.0.0",
-  "description": "Create React App with Tailwind CSS",
+  "version": "5.0.1",
+  "description": "React and Tailwind Starter Kit",
   "license": "MIT",
   "author": {
     "name": "Amit Agarwal",
@@ -11,15 +11,14 @@
   "type": "module",
   "scripts": {
     "start": "vite",
+    "dev": "vite",
     "build": "vite build",
     "inline": "INLINE=true vite build"
   },
   "keywords": [
     "vite",
     "react",
-    "tailwindcss",
-    "tailwindui",
-    "create-react-app"
+    "tailwindcss"
   ],
   "browserslist": {
     "production": [
