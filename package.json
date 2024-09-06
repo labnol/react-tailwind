@@ -2,6 +2,11 @@
   "name": "react-tailwind",
   "version": "5.0.1",
   "description": "React and Tailwind Starter Kit",
+  "keywords": [
+    "vite",
+    "react",
+    "tailwindcss"
+  ],
   "license": "MIT",
   "author": {
     "name": "Amit Agarwal",
@@ -10,16 +15,12 @@
   },
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
     "build": "vite build",
-    "inline": "INLINE=true vite build"
+    "dev": "vite",
+    "inline": "INLINE=true vite build",
+    "preview": "vite preview",
+    "start": "vite"
   },
-  "keywords": [
-    "vite",
-    "react",
-    "tailwindcss"
-  ],
   "browserslist": {
     "production": [
       ">0.2%",
