@@ -2,6 +2,8 @@
 
 Quickly set up a new `React.js` project with Tailwind CSS using the [starter kit](https://github.com/labnol/react-tailwind). The project was bootstrapped with Vite (replacing Create React App) and it uses the `singlefile` plugin to inline all the JavaScript and CSS files into a single minified file.
 
+The latest version of the starter kit is built with React 19 and Tailwind CSS 4.
+
 ## Live Demo
 
 The [Digital Inspiration](https://digitalinspiration.com/) website is built with the Tailwind CSS, React.js and Vite. You can test the starter kit by opening the project in [StackBlitz](https://stackblitz.com/github/labnol/react-tailwind) or [CodeSandbox](https://codesandbox.io/p/sandbox/github/labnol/react-tailwind).

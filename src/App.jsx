@@ -29,8 +29,11 @@ const App = () => (
             </a>
           </div>
           <div className='divide-y divide-gray-200'>
-            <div className='space-y-4 py-8 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7'>
-              <p>Quickly setup a React project with Vite and Tailwind CSS.</p>
+            <div className='space-y-5 py-8 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7'>
+              <h1 className='text-lg font-semibold text-cyan-600'>
+                React and Tailwind CSS Starter Kit
+              </h1>
+              <p>Create a React project with Vite and Tailwind CSS.</p>
               <div className='list-disc space-y-2'>
                 {features.map((feature) => (
                   <Feature
@@ -40,7 +43,9 @@ const App = () => (
                   />
                 ))}
               </div>
-              <p>All unused CSS classes are automatically removed from the production build.</p>
+              <p className='text-sm font-medium text-cyan-500'>
+                Built with Tailwind CSS 4 and React 19.
+              </p>
             </div>
             <Footer />
           </div>
