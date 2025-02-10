@@ -10,7 +10,17 @@ The [Digital Inspiration](https://digitalinspiration.com/) website is built with
 
 [![Screenshot](screenshot.png)](https://stackblitz.com/github/labnol/react-tailwind)
 
-[![Open in StackBlitz](https://img.shields.io/badge/Open_In_StackBlitz-blue.svg?logo=stackblitz&style=flat-square)](https://stackblitz.com/github/labnol/react-tailwind) [![Open in CodeSandbox](https://img.shields.io/badge/Open_In_CodeSandbox-000000?logo=codesandbox&style=flat-square)](https://codesandbox.io/p/sandbox/github/labnol/react-tailwind)
+## 🌏  Open in the Cloud 
+Click any of the buttons below to start a new development environment to demo or contribute to the codebase:
+
+[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/labnol/react-tailwind)
+[![Open in Glitch](https://img.shields.io/badge/Open%20in-Glitch-blue?logo=glitch)](https://glitch.com/edit/#!/import/github/labnol/react-tailwind)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/labnol/react-tailwind)
+[![Edit in Codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/labnol/react-tailwind)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/react-jsbarcode?file=src%2FApp.tsx)[![Open in Repl.it](https://replit.com/badge/github/withastro/astro)](https://replit.com/github/labnol/react-tailwind)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/labnol/react-tailwind)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/labnol/react-tailwind)
+
 
 ### Available `npm` commands
 
