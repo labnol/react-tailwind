@@ -33,7 +33,7 @@ const App = () => (
               <h1 className='text-lg font-semibold text-cyan-600'>
                 React and Tailwind CSS Starter Kit
               </h1>
-              <p>Create a React project with Vite and Tailwind CSS.</p>
+              <p>(Create a React project with Vite and Tailwind CSS)</p>
               <div className='list-disc space-y-2'>
                 {features.map((feature) => (
                   <Feature
